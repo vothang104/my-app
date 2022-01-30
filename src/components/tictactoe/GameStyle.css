@@ -1,0 +1,27 @@
+.game-board{
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33.3333%;
+    height: 33.3333%;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    cursor: pointer;
+}
+.game-cell:hover {
+    background-color: #f3f3f3;
+}
+.game-cell.is-x {
+    color: aqua;
+}
+.game-cell.is-o {
+    color: tomato;
+}

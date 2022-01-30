@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    min-width: 300px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #2979ff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin: 40px;
+    &:hover {
+        cursor: pointer;
+        filter: brightness(90%);
+    }
+    &--secondary {
+        background-color: transparent;
+        color: #2979ff;
+        border: 1px solid #2979ff;
+    }
+}
